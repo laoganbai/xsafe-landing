@@ -12,14 +12,14 @@
             font-family: "Microsoft Yahei", system-ui, sans-serif;
         }
         body {
-            color: #e6edf7;
-            background-color: #0f172a;
+            color: #1f2937;
+            background-color: #f8fafc;
             line-height: 1.7;
         }
-        /* 导航栏 */
+        /* 导航栏 亮色 */
         header {
-            background: #0b1220;
-            border-bottom: 1px solid #233554;
+            background: #ffffff;
+            border-bottom: 1px solid #e2e8f0;
             padding: 0 30px;
             position: sticky;
             top: 0;
@@ -36,37 +36,37 @@
         .logo {
             font-size: 26px;
             font-weight: 700;
-            color: #3b82f6;
+            color: #2563eb;
         }
         .nav-menu a {
-            color: #b4c5e4;
+            color: #475569;
             text-decoration: none;
             margin-left: 32px;
             font-size: 16px;
             transition: 0.2s;
         }
         .nav-menu a:hover {
-            color: #3b82f6;
+            color: #2563eb;
         }
-        /* 首屏Banner */
+        /* 首屏Banner 亮色渐变 */
         .hero {
-            background: linear-gradient(150deg, #0f172a 0%, #16294d 100%);
+            background: linear-gradient(150deg, #eff6ff 0%, #dbeafe 100%);
             padding: 100px 20px;
             text-align: center;
         }
         .hero h1 {
             font-size: 48px;
             margin-bottom: 24px;
-            color: #ffffff;
+            color: #1e293b;
         }
         .hero h1 span {
-            color: #3b82f6;
+            color: #2563eb;
         }
         .hero-desc {
             max-width: 860px;
             margin: 0 auto 40px;
             font-size: 19px;
-            color: #b4c5e4;
+            color: #475569;
         }
         .download-box {
             display: flex;
@@ -77,7 +77,7 @@
         }
         .download-main {
             display: inline-block;
-            background: #3b82f6;
+            background: #2563eb;
             color: #fff;
             font-weight: bold;
             font-size: 18px;
@@ -85,13 +85,13 @@
             border-radius: 999px;
             text-decoration: none;
             transition: all 0.3s ease;
-            box-shadow: 0 0 20px rgba(59,130,246,0.3);
+            box-shadow: 0 0 20px rgba(37,99,235,0.2);
             min-width: 220px;
         }
         .download-main:hover {
-            background: #2563eb;
+            background: #1d4ed8;
             transform: translateY(-4px);
-            box-shadow: 0 0 30px rgba(59,130,246,0.45);
+            box-shadow: 0 0 30px rgba(37,99,235,0.35);
         }
         .download-git {
             background: #24292f;
@@ -101,6 +101,9 @@
         }
         .video-bilibili {
             background: #fb7299;
+        }
+        .doc-btn {
+            background: #7c3aed;
         }
         /* 通用容器 */
         .container {
@@ -112,7 +115,7 @@
             text-align: center;
             font-size: 36px;
             margin-bottom: 60px;
-            color: #ffffff;
+            color: #1e293b;
         }
         .sec-title small {
             display: block;
@@ -121,12 +124,12 @@
             margin-top: 8px;
             font-weight: normal;
         }
-        /* 产品定位板块 */
+        /* 产品定位板块 浅色卡片 */
         .position-box {
-            background: #152238;
+            background: #ffffff;
             border-radius: 16px;
             padding: 40px;
-            border: 1px solid #233554;
+            border: 1px solid #e2e8f0;
         }
         .position-list {
             display: grid;
@@ -140,61 +143,62 @@
         .dot-blue {
             width: 12px;
             height: 12px;
-            background: #3b82f6;
+            background: #2563eb;
             border-radius: 50%;
             margin-top: 8px;
             flex-shrink: 0;
         }
-        /* v1.0更新卡片 */
+        /* v1.0更新卡片 浅色 */
         .update-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
             gap: 28px;
         }
         .card-dark {
-            background: #152238;
-            border: 1px solid #233554;
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
             border-radius: 14px;
             padding: 32px 26px;
             transition: 0.3s;
         }
         .card-dark:hover {
-            border-color: #3b82f6;
+            border-color: #2563eb;
             transform: translateY(-6px);
+            box-shadow: 0 4px 16px rgba(37,99,235,0.1);
         }
         .card-dark h3 {
             font-size: 22px;
-            color: #3b82f6;
+            color: #2563eb;
             margin-bottom: 16px;
         }
         .card-dark ul {
             padding-left: 18px;
-            color: #b4c5e4;
+            color: #334155;
         }
         .card-dark li {
             margin-bottom: 10px;
         }
-        /* 三引擎联动 */
+        /* 三引擎联动 浅色渐变卡片 */
         .engine-wrap {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
             gap: 30px;
         }
         .engine-card {
-            background: linear-gradient(145deg, #182742, #121c30);
+            background: linear-gradient(145deg, #ffffff, #f1f5f9);
             border-radius: 14px;
             padding: 34px 24px;
-            border-left: 4px solid #3b82f6;
+            border-left: 4px solid #2563eb;
         }
         .engine-card h3 {
             font-size: 22px;
             margin-bottom: 14px;
-            color: #fff;
+            color: #1e293b;
         }
         .engine-card p {
-            color: #a0b4d8;
+            color: #475569;
         }
-        /* 主动防御功能区 */
+        /* 主动防御功能区双列 */
         .func-two-col {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -205,10 +209,10 @@
                 grid-template-columns: 1fr;
             }
         }
-        /* 底部 */
+        /* 底部 浅色页脚 */
         footer {
-            background: #0b1220;
-            border-top: 1px solid #233554;
+            background: #ffffff;
+            border-top: 1px solid #e2e8f0;
             padding: 45px 20px;
             text-align: center;
             color: #64748b;
@@ -217,11 +221,10 @@
             margin-bottom: 10px;
         }
         footer a {
-            color: #94bfff;
+            color: #2563eb;
             text-decoration: none;
         }
         footer a:hover {
-            color: #3b82f6;
             text-decoration: underline;
         }
     </style>
@@ -237,6 +240,7 @@
                 <a href="#engine">三引擎联动</a>
                 <a href="#defense">主动防御</a>
                 <a href="#download">下载&演示</a>
+                <a href="https://max257026-svg.github.io/X-Safe/docs.html" target="_blank">开发文档</a>
             </div>
         </div>
     </header>
@@ -250,7 +254,8 @@
             <a href="https://pan.gfwl.top/f/dQAmI5/XSafe_v29e.7z" target="_blank" class="download-main">7z绿色压缩包</a>
             <a href="https://pan.gfwl.top/f/pEXDfK/X-Safe-Security-Center.7z" target="_blank" class="download-main download-code">完整源码</a>
             <a href="https://github.com/max257026-svg/X-Safe" target="_blank" class="download-main download-git">GitHub项目主页</a>
-            <a href="https://www.bilibili.com/video/BV1eTKK6WEN2/?spm_id_from=333.1007.top_right_bar_window_history.content.click" target="_blank" class="download-main video-bilibili">B站宣传片</a>
+            <a href="https://www.bilibili.com/video/BV1eTKK6WEN2/?spm_id_from=333.1007.top_right_bar_window_history.content.click" target="_blank" class="download-main video-bilibili">B站功能演示视频</a>
+            <a href="https://max257026-svg.github.io/X-Safe/docs.html" target="_blank" class="download-main doc-btn">开发文档</a>
         </div>
     </section>
 
@@ -280,7 +285,7 @@
     </section>
 
     <!-- v1.0全新升级 -->
-    <section class="container" style="background:#121c30;" id="update">
+    <section class="container" style="background:#f1f5f9;" id="update">
         <h2 class="sec-title">v1.0 全新升级特性</h2>
         <div class="update-grid">
             <div class="card-dark">
@@ -337,7 +342,7 @@
     </section>
 
     <!-- 主动防御核心能力 -->
-    <section class="container" style="background:#121c30;" id="defense">
+    <section class="container" style="background:#f1f5f9;" id="defense">
         <h2 class="sec-title">全维度主动防御能力</h2>
         <div class="func-two-col">
             <div class="card-dark">
